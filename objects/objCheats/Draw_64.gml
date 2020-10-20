@@ -1,1 +1,0 @@
-draw_text(8, 24, combination);

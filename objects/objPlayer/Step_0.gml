@@ -1,9 +1,12 @@
-var hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
+var hor = keyboard_check(vk_right) - keyboard_check(vk_left);
 
 if (hor != 0) {
-	x += hor * 1;
+	if (place_free(x + hor * 2, y)) {
+		x += hor * 2;
+	}
+	
 	image_xscale = hor;
-	sprite_index = asset_get_index("sprWalk_" + weapon);
+	sprite_index = sprWalk;
 } else {
-	sprite_index = asset_get_index("sprIdle_" + weapon);
+	sprite_index = sprIdle;
 }
