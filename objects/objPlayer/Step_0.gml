@@ -7,9 +7,9 @@ if (hor != 0) {
 	}
 	
 	image_xscale = hor;
-	sprite_index = sprWalk;
+	action = "Walk";
 } else {
-	sprite_index = sprIdle;
+	action = "Idle";
 }
 #endregion
 

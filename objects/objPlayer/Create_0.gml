@@ -1,0 +1,2 @@
+weapon = "NW";
+action = "Idle";

@@ -1,7 +1,7 @@
 #region Gravedad
 if (!collision_rectangle(x-6,y,x+6,y+1,objWall,false,false)) {
 	gravity = 0.3;
-	sprite_index = sprJump;
+	action = "Jump";
 }
 
 if (vspeed > 0) {
@@ -20,3 +20,4 @@ if (vspeed > 0) {
 }
 #endregion
 
+sprite_index = asset_get_index("spr" + weapon + action);
