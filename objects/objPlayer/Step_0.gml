@@ -8,7 +8,7 @@ if (hor != 0) {
 	
 	image_xscale = hor;
 	action = "Walk";
-} else {
+} else if (vspeed == 0) {
 	action = "Idle";
 }
 #endregion
