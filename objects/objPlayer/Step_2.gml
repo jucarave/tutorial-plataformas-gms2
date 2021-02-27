@@ -1,3 +1,7 @@
+#region Colision plataforma
+	scrCheckPlatformCollision(width);
+#endregion
+
 #region Gravedad
 	scrCheckGravity(width);
 
@@ -10,8 +14,4 @@
 
 #region Cambiar Sprite
 	scrUpdateSprite();
-#endregion
-
-#region Colision plataforma
-	scrCheckPlatformCollision(width);
 #endregion

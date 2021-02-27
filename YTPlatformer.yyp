@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"objRamp","path":"objects/objRamp/objRamp.yy",},"order":5,},
     {"id":{"name":"sprNWJump","path":"sprites/sprNWJump/sprNWJump.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
     {"id":{"name":"scrMovement","path":"scripts/scrMovement/scrMovement.yy",},"order":0,},
