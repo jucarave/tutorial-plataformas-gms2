@@ -14,3 +14,14 @@
 		scrJump(width);
 	}
 #endregion
+
+#region Disparar
+	firingFrequency -= 1;
+	if (keyboard_check(ord("A")) && weapon != "NW" && firingFrequency <= 0) {
+		var bullet = instance_create_layer(x + 17 * image_xscale, y - 13, "Instances", objBullet);
+		bullet.image_xscale = image_xscale;
+		bullet.hspeed *= image_xscale;
+		
+		firingFrequency = 10;
+	}
+#endregion
