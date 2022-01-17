@@ -1,14 +1,11 @@
 {
   "spriteId": {
-    "name": "sprNWIdle",
-    "path": "sprites/sprNWIdle/sprNWIdle.yy",
+    "name": "sprGruntIdle",
+    "path": "sprites/sprGruntIdle/sprGruntIdle.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "sprMask",
-    "path": "sprites/sprMask/sprMask.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -25,8 +22,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"objWeapon","path":"objects/objWeapon/objWeapon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -36,7 +31,7 @@
     "path": "folders/Objects/Characters.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objPlayer",
+  "name": "objGrunt",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,5 +1,5 @@
-function scrMovement(hor, width){
-	var xTo = x + hor * 2;
+function scrMovement(hor, spd, width){
+	var xTo = x + hor * spd;
 	var moved = false;
 	
 	for (var i=1;i<4;i++) {
