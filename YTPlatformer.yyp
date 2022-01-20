@@ -17,6 +17,7 @@
     {"id":{"name":"scrJump","path":"scripts/scrJump/scrJump.yy",},"order":1,},
     {"id":{"name":"objAssaultRifle","path":"objects/objAssaultRifle/objAssaultRifle.yy",},"order":1,},
     {"id":{"name":"sprBulletCollision","path":"sprites/sprBulletCollision/sprBulletCollision.yy",},"order":3,},
+    {"id":{"name":"sprGruntDeath","path":"sprites/sprGruntDeath/sprGruntDeath.yy",},"order":2,},
     {"id":{"name":"sprRamp","path":"sprites/sprRamp/sprRamp.yy",},"order":1,},
     {"id":{"name":"objGrunt","path":"objects/objGrunt/objGrunt.yy",},"order":1,},
     {"id":{"name":"objWall","path":"objects/objWall/objWall.yy",},"order":0,},
