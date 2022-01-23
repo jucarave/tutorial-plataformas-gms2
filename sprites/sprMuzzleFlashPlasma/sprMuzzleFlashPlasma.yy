@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 10,
+  "bbox_right": 6,
   "bbox_top": 0,
   "bbox_bottom": 11,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 11,
+  "width": 7,
   "height": 12,
   "textureGroupId": {
     "name": "Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8daee6c7-d056-461a-a5f8-6886d0a2c3c1","path":"sprites/sprMuzzleFlash/sprMuzzleFlash.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8daee6c7-d056-461a-a5f8-6886d0a2c3c1","path":"sprites/sprMuzzleFlash/sprMuzzleFlash.yy",},"LayerId":{"name":"f50848e5-67ab-4ed3-9b63-52451590b5ad","path":"sprites/sprMuzzleFlash/sprMuzzleFlash.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMuzzleFlash","path":"sprites/sprMuzzleFlash/sprMuzzleFlash.yy",},"resourceVersion":"1.0","name":"8daee6c7-d056-461a-a5f8-6886d0a2c3c1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5b1d87a5-5493-41ca-b547-082a2721e80a","path":"sprites/sprMuzzleFlashPlasma/sprMuzzleFlashPlasma.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5b1d87a5-5493-41ca-b547-082a2721e80a","path":"sprites/sprMuzzleFlashPlasma/sprMuzzleFlashPlasma.yy",},"LayerId":{"name":"8b6af830-4ffb-4a3b-9619-ccca09fb6870","path":"sprites/sprMuzzleFlashPlasma/sprMuzzleFlashPlasma.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprMuzzleFlashPlasma","path":"sprites/sprMuzzleFlashPlasma/sprMuzzleFlashPlasma.yy",},"resourceVersion":"1.0","name":"5b1d87a5-5493-41ca-b547-082a2721e80a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprMuzzleFlash","path":"sprites/sprMuzzleFlash/sprMuzzleFlash.yy",},
+    "spriteId": {"name":"sprMuzzleFlashPlasma","path":"sprites/sprMuzzleFlashPlasma/sprMuzzleFlashPlasma.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d06c7919-7ecd-476a-bfb9-13a15b08b144","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8daee6c7-d056-461a-a5f8-6886d0a2c3c1","path":"sprites/sprMuzzleFlash/sprMuzzleFlash.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e6901131-521d-4c85-ab6f-dc00f5d29dd5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5b1d87a5-5493-41ca-b547-082a2721e80a","path":"sprites/sprMuzzleFlashPlasma/sprMuzzleFlashPlasma.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 6,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprMuzzleFlash","path":"sprites/sprMuzzleFlash/sprMuzzleFlash.yy",},
+    "parent": {"name":"sprMuzzleFlashPlasma","path":"sprites/sprMuzzleFlashPlasma/sprMuzzleFlashPlasma.yy",},
     "resourceVersion": "1.3",
-    "name": "sprMuzzleFlash",
+    "name": "sprMuzzleFlashPlasma",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f50848e5-67ab-4ed3-9b63-52451590b5ad","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8b6af830-4ffb-4a3b-9619-ccca09fb6870","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Regular",
-    "path": "folders/Sprites/Bullets/Regular.yy",
+    "name": "Plasma",
+    "path": "folders/Sprites/Bullets/Plasma.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sprMuzzleFlash",
+  "name": "sprMuzzleFlashPlasma",
   "tags": [],
   "resourceType": "GMSprite",
 }

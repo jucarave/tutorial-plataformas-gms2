@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Weapons",
-    "path": "folders/Sprites/Weapons.yy",
+    "name": "Regular",
+    "path": "folders/Sprites/Bullets/Regular.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprBullet",

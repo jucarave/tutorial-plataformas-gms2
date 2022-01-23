@@ -7,3 +7,5 @@ dir = 1;
 
 hp = 3;
 deathSprite = sprGruntDeath;
+
+firingFrequency = 0;
