@@ -18,6 +18,7 @@
     {"id":{"name":"scrJump","path":"scripts/scrJump/scrJump.yy",},"order":1,},
     {"id":{"name":"objAssaultRifle","path":"objects/objAssaultRifle/objAssaultRifle.yy",},"order":1,},
     {"id":{"name":"sprBulletCollision","path":"sprites/sprBulletCollision/sprBulletCollision.yy",},"order":1,},
+    {"id":{"name":"sprUIHPBar","path":"sprites/sprUIHPBar/sprUIHPBar.yy",},"order":1,},
     {"id":{"name":"sprGruntDeath","path":"sprites/sprGruntDeath/sprGruntDeath.yy",},"order":2,},
     {"id":{"name":"sprRamp","path":"sprites/sprRamp/sprRamp.yy",},"order":1,},
     {"id":{"name":"objGrunt","path":"objects/objGrunt/objGrunt.yy",},"order":1,},
@@ -28,6 +29,8 @@
     {"id":{"name":"scrCheckGravity","path":"scripts/scrCheckGravity/scrCheckGravity.yy",},"order":2,},
     {"id":{"name":"objWeapon","path":"objects/objWeapon/objWeapon.yy",},"order":2,},
     {"id":{"name":"scrEnemyWatch","path":"scripts/scrEnemyWatch/scrEnemyWatch.yy",},"order":1,},
+    {"id":{"name":"objSystem","path":"objects/objSystem/objSystem.yy",},"order":11,},
+    {"id":{"name":"objHPBar","path":"objects/objHPBar/objHPBar.yy",},"order":0,},
     {"id":{"name":"sprGruntIdle","path":"sprites/sprGruntIdle/sprGruntIdle.yy",},"order":0,},
     {"id":{"name":"scrEnemyPatrol","path":"scripts/scrEnemyPatrol/scrEnemyPatrol.yy",},"order":0,},
     {"id":{"name":"sprNWWalk","path":"sprites/sprNWWalk/sprNWWalk.yy",},"order":2,},
@@ -42,6 +45,7 @@
     {"id":{"name":"scrCheckCeilingCollision","path":"scripts/scrCheckCeilingCollision/scrCheckCeilingCollision.yy",},"order":4,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
     {"id":{"name":"sprBullet","path":"sprites/sprBullet/sprBullet.yy",},"order":0,},
+    {"id":{"name":"sprUIHPFrame","path":"sprites/sprUIHPFrame/sprUIHPFrame.yy",},"order":0,},
     {"id":{"name":"sprBlock","path":"sprites/sprBlock/sprBlock.yy",},"order":0,},
   ],
   "Options": [
@@ -82,6 +86,8 @@
     {"folderPath":"folders/Sprites/Bullets.yy","order":15,"resourceVersion":"1.0","name":"Bullets","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Bullets/Regular.yy","order":1,"resourceVersion":"1.0","name":"Regular","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Bullets/Plasma.yy","order":2,"resourceVersion":"1.0","name":"Plasma","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/UI.yy","order":16,"resourceVersion":"1.0","name":"UI","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/UI.yy","order":10,"resourceVersion":"1.0","name":"UI","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
