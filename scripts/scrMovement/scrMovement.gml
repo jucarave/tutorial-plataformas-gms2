@@ -1,9 +1,9 @@
-function scrMovement(hor, spd, width){
+function scrMovement(hor, spd, width, height){
 	var xTo = x + hor * spd;
 	var moved = false;
 	
 	for (var i=1;i<4;i++) {
-		var wall = collision_rectangle(xTo-width, y-i-1, xTo+width, y-i, objWall, true, true);
+		var wall = collision_rectangle(xTo-width, y-i-height, xTo+width, y-i, objWall, true, true);
 		if (!wall || !wall.solid) {
 			x = xTo;
 			moved = true;
@@ -16,13 +16,11 @@ function scrMovement(hor, spd, width){
 	
 	if (vspeed == 0 && moved) {
 		for (var i=1;i<4;i++) {
-			var wall = collision_rectangle(xTo-width, y+i-1, xTo+width, y+i, objRamp, true, true);
+			var wall = collision_rectangle(xTo-width, y+i-height, xTo+width, y+i, objRamp, true, true);
 			if (wall) {
 				y += i;
 				break;
 			}
 		}
 	}
-	
-	image_xscale = hor;
 }

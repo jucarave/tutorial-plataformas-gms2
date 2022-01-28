@@ -1,8 +1,8 @@
-hspeed = 0;
-xfrom = 0;
-xto = 0;
+hspeed = 0.5;
+xfrom = 32;
+xto = 272;
 
-vspeed = 0.5;
+vspeed = 0;
 yfrom = 16;
 yto = 64;
 

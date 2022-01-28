@@ -16,7 +16,9 @@ function scrCheckGroundCollision(width){
 					break;
 				}
 			}
-		}else if (y <= ground.y + 3 && y + vspeed >= ground.y) {
+		} else if (y + vspeed >= ground.y) {
+			if (ground.oneSided && y > ground.y + 3) { exit; }
+
 			y = ground.y;
 			vspeed = 0;
 			gravity = 0;

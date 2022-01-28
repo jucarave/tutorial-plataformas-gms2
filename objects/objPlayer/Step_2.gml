@@ -9,3 +9,5 @@
 #region Cambiar Sprite
 	scrUpdateSprite();
 #endregion
+
+scrMoveCamera();

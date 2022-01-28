@@ -5,7 +5,7 @@ function scrEnemyChase(){
 
 		sprite_index = sprGruntWalk;
 		image_xscale = dir;
-		scrMovement(dir, 0.7, width);
+		scrMovement(dir, 0.7, width, height);
 	} else {
 		sprite_index = sprGruntIdle;
 		
