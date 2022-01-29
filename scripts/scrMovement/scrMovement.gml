@@ -2,7 +2,7 @@ function scrMovement(hor, spd, width, height){
 	var xTo = x + hor * spd;
 	var moved = false;
 	
-	for (var i=1;i<4;i++) {
+	for (var i=1;i<8;i++) {
 		var wall = collision_rectangle(xTo-width, y-i-height, xTo+width, y-i, objWall, true, true);
 		if (!wall || !wall.solid) {
 			x = xTo;
@@ -15,7 +15,7 @@ function scrMovement(hor, spd, width, height){
 	}
 	
 	if (vspeed == 0 && moved) {
-		for (var i=1;i<4;i++) {
+		for (var i=1;i<8;i++) {
 			var wall = collision_rectangle(xTo-width, y+i-height, xTo+width, y+i, objRamp, true, true);
 			if (wall) {
 				y += i;

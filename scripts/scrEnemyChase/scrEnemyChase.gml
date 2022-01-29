@@ -8,6 +8,7 @@ function scrEnemyChase(){
 		scrMovement(dir, 0.7, width, height);
 	} else {
 		sprite_index = sprGruntIdle;
+		image_xscale = sign(dx);
 		
 		firingFrequency -= 1;
 		if (firingFrequency <= 0) {

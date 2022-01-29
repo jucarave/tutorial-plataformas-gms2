@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sprDash","path":"sprites/sprDash/sprDash.yy",},"order":2,},
     {"id":{"name":"sprGruntWalk","path":"sprites/sprGruntWalk/sprGruntWalk.yy",},"order":1,},
     {"id":{"name":"objRamp","path":"objects/objRamp/objRamp.yy",},"order":4,},
     {"id":{"name":"sprNWJump","path":"sprites/sprNWJump/sprNWJump.yy",},"order":1,},
@@ -14,6 +15,7 @@
     {"id":{"name":"objBullet","path":"objects/objBullet/objBullet.yy",},"order":0,},
     {"id":{"name":"scrCheckGroundCollision","path":"scripts/scrCheckGroundCollision/scrCheckGroundCollision.yy",},"order":3,},
     {"id":{"name":"scrEnemyChase","path":"scripts/scrEnemyChase/scrEnemyChase.yy",},"order":2,},
+    {"id":{"name":"scrPlayerMovement","path":"scripts/scrPlayerMovement/scrPlayerMovement.yy",},"order":0,},
     {"id":{"name":"sprARWalk","path":"sprites/sprARWalk/sprARWalk.yy",},"order":2,},
     {"id":{"name":"scrJump","path":"scripts/scrJump/scrJump.yy",},"order":1,},
     {"id":{"name":"objAssaultRifle","path":"objects/objAssaultRifle/objAssaultRifle.yy",},"order":1,},
@@ -22,12 +24,15 @@
     {"id":{"name":"sprGruntDeath","path":"sprites/sprGruntDeath/sprGruntDeath.yy",},"order":2,},
     {"id":{"name":"sprRamp","path":"sprites/sprRamp/sprRamp.yy",},"order":1,},
     {"id":{"name":"objGrunt","path":"objects/objGrunt/objGrunt.yy",},"order":1,},
+    {"id":{"name":"scrPlayerJump","path":"scripts/scrPlayerJump/scrPlayerJump.yy",},"order":1,},
     {"id":{"name":"sprBulletCollisionPlasma","path":"sprites/sprBulletCollisionPlasma/sprBulletCollisionPlasma.yy",},"order":2,},
     {"id":{"name":"sprBulletPlasma","path":"sprites/sprBulletPlasma/sprBulletPlasma.yy",},"order":0,},
     {"id":{"name":"objWall","path":"objects/objWall/objWall.yy",},"order":0,},
     {"id":{"name":"bckTest","path":"sprites/bckTest/bckTest.yy",},"order":0,},
+    {"id":{"name":"scrPlayerDash","path":"scripts/scrPlayerDash/scrPlayerDash.yy",},"order":3,},
     {"id":{"name":"scrCheckGravity","path":"scripts/scrCheckGravity/scrCheckGravity.yy",},"order":2,},
     {"id":{"name":"objWeapon","path":"objects/objWeapon/objWeapon.yy",},"order":2,},
+    {"id":{"name":"scrPlayerFire","path":"scripts/scrPlayerFire/scrPlayerFire.yy",},"order":2,},
     {"id":{"name":"scrEnemyWatch","path":"scripts/scrEnemyWatch/scrEnemyWatch.yy",},"order":1,},
     {"id":{"name":"objSystem","path":"objects/objSystem/objSystem.yy",},"order":11,},
     {"id":{"name":"objHPBar","path":"objects/objHPBar/objHPBar.yy",},"order":0,},
@@ -89,6 +94,7 @@
     {"folderPath":"folders/Sprites/UI.yy","order":16,"resourceVersion":"1.0","name":"UI","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/UI.yy","order":10,"resourceVersion":"1.0","name":"UI","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Utils.yy","order":3,"resourceVersion":"1.0","name":"Utils","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Player.yy","order":4,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

@@ -1,4 +1,5 @@
 if (side == "player") { exit; }
+if (objPlayer.state == "dash") { exit; }
 
 objSystem.playerHP -= dmg;
 
