@@ -4,6 +4,7 @@ switch (state) {
 		scrPlayerJump();
 		scrPlayerFire();
 		scrPlayerDash();
+		scrPlayerSwitchWeapon();
 		break;
 		
 	case "dash":

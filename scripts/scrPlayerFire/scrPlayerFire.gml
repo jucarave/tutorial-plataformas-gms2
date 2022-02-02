@@ -1,6 +1,6 @@
 function scrPlayerFire(){
 	firingFrequency -= 1;
-	if (keyboard_check(ord("A")) && weapon != "NW" && firingFrequency <= 0) {
+	if (keyboard_check(ord("A")) && weapons[weaponInd] != "NW" && firingFrequency <= 0) {
 		var flash = instance_create_layer(x + 16 * image_xscale, y - 14, "Bullets", objMuzzleFlash);
 		flash.image_xscale = image_xscale;
 		

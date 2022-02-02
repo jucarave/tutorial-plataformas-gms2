@@ -1,4 +1,5 @@
-weapon = "NW";
+weapons = ["NW", "NW"];
+weaponInd = 0;
 action = "Idle";
 state = "idle";
 
