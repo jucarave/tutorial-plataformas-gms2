@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "sprMovingPlatform",
-    "path": "sprites/sprMovingPlatform/sprMovingPlatform.yy",
+    "name": "sprCheckpoint",
+    "path": "sprites/sprCheckpoint/sprCheckpoint.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "objWall",
-    "path": "objects/objWall/objWall.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,8 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +30,7 @@
     "path": "folders/Objects/Scene.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objMovingPlatform",
+  "name": "objCheckpoint",
   "tags": [],
   "resourceType": "GMObject",
 }

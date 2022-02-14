@@ -3,6 +3,6 @@ function scrPickWeapon(object, index){
 		instance_destroy();
 	}
 	
-	weapons[index] = object.weapon;
-	weaponInd = index;
+	objSystem.weapons[index] = object.weapon;
+	objSystem.weaponInd = index;
 }
