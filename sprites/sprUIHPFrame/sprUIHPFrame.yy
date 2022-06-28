@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprUIHPFrame","path":"sprites/sprUIHPFrame/sprUIHPFrame.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprUIHPFrame",
     "tags": [],
     "resourceType": "GMSequence",

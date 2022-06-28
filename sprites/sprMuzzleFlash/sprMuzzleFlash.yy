@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprMuzzleFlash","path":"sprites/sprMuzzleFlash/sprMuzzleFlash.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprMuzzleFlash",
     "tags": [],
     "resourceType": "GMSequence",

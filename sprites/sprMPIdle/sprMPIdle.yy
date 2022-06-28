@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprMPIdle","path":"sprites/sprMPIdle/sprMPIdle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprMPIdle",
     "tags": [],
     "resourceType": "GMSequence",

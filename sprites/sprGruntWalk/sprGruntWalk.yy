@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprGruntWalk","path":"sprites/sprGruntWalk/sprGruntWalk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprGruntWalk",
     "tags": [],
     "resourceType": "GMSequence",

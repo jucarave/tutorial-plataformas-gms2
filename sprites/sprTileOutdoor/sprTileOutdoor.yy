@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprTileOutdoor","path":"sprites/sprTileOutdoor/sprTileOutdoor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprTileOutdoor",
     "tags": [],
     "resourceType": "GMSequence",

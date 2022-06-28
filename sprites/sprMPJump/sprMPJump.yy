@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprMPJump","path":"sprites/sprMPJump/sprMPJump.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprMPJump",
     "tags": [],
     "resourceType": "GMSequence",

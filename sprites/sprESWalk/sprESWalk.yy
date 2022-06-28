@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprESWalk","path":"sprites/sprESWalk/sprESWalk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprESWalk",
     "tags": [],
     "resourceType": "GMSequence",

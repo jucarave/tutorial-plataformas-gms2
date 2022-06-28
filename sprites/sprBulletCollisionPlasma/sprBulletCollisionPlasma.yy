@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprBulletCollisionPlasma","path":"sprites/sprBulletCollisionPlasma/sprBulletCollisionPlasma.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprBulletCollisionPlasma",
     "tags": [],
     "resourceType": "GMSequence",

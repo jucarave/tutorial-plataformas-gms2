@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprESIdle","path":"sprites/sprESIdle/sprESIdle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprESIdle",
     "tags": [],
     "resourceType": "GMSequence",

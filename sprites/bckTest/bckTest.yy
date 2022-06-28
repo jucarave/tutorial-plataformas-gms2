@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"bckTest","path":"sprites/bckTest/bckTest.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "bckTest",
     "tags": [],
     "resourceType": "GMSequence",

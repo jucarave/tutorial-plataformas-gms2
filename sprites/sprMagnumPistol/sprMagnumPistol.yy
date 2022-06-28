@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprMagnumPistol","path":"sprites/sprMagnumPistol/sprMagnumPistol.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprMagnumPistol",
     "tags": [],
     "resourceType": "GMSequence",

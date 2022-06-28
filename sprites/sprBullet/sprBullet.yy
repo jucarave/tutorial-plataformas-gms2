@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprBullet","path":"sprites/sprBullet/sprBullet.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprBullet",
     "tags": [],
     "resourceType": "GMSequence",

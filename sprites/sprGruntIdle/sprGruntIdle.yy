@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprGruntIdle","path":"sprites/sprGruntIdle/sprGruntIdle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprGruntIdle",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprESJump","path":"sprites/sprESJump/sprESJump.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprESJump",
     "tags": [],
     "resourceType": "GMSequence",

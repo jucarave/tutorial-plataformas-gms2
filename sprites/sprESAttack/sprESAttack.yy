@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprESAttack","path":"sprites/sprESAttack/sprESAttack.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprESAttack",
     "tags": [],
     "resourceType": "GMSequence",

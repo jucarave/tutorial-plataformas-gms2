@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprGruntDeath","path":"sprites/sprGruntDeath/sprGruntDeath.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprGruntDeath",
     "tags": [],
     "resourceType": "GMSequence",

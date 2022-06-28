@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprEnergySword","path":"sprites/sprEnergySword/sprEnergySword.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprEnergySword",
     "tags": [],
     "resourceType": "GMSequence",
