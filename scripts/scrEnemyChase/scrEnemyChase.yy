@@ -1,12 +1,11 @@
 {
-  "isDnD": false,
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "scrEnemyChase",
   "isCompatibility": false,
+  "isDnD": false,
   "parent": {
     "name": "Enemies",
     "path": "folders/Scripts/Enemies.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "scrEnemyChase",
-  "tags": [],
-  "resourceType": "GMScript",
 }
